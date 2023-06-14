@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "npx cypress open"
+    "start": "npx cypress open --e2e --browser chrome"
   },
   "dependencies": {
     "cypress": "^12.14.0"
