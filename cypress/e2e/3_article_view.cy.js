@@ -52,5 +52,6 @@ Exercise: Login to https://demo.realworld.io using your credentials. Add article
 
 `https://demo.realworld.io/#/article/${uniqueId}`
 [ng-bind="::$ctrl.article.title"]
+.should('have.text', title);
 
 */
